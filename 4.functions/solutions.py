@@ -70,28 +70,27 @@ print(f"{suma=} {średnia=}")
 
 """
 =================================================================================================
-Zadanie 4: Liczenie Wystąpień Słów
-Napisz funkcję, która przyjmuje ciąg znaków (tekst) i zwraca słownik 
-z liczbą wystąpień każdego słowa w tekście.
+## Zadanie 4: Liczenie Wystąpień Litery
+Napisz funkcję, która przyjmuje ciąg znaków (tekst) oraz literę i zwraca liczbę wystąpień podanej litery.
 
-1. Utwórz funkcję licz_wystapienia_slow(tekst), która przyjmuje jeden ciąg znaków tekst.
-2. Podziel tekst na słowa i policz wystąpienia każdego słowa.
+1. Utwórz funkcję licz_wystapienia_litery(tekst, litera), która przyjmuje jeden ciąg znaków i szukaną literę.
+2. Policz wystąpienia każdej litery.
 3. Przetestuj funkcję na kilku przykładach.
 """
 
 
-def licz_wystapienia_slow(tekst):
-    slowa = tekst.split()
-    wystapienia = {}
-    for slowo in slowa:
-        wystapienia[slowo] = wystapienia.get(slowo, 0) + 1
+def licz_wystapienia_litery(tekst, szukana_litera):
+    wystapienia = 0
+    for litera_w_tekscie in tekst:
+        if litera_w_tekscie == szukana_litera:
+            wystapienia += 1
     return wystapienia
 
 
 # Przykładowe użycie
 tekst = "to jest test to jest tylko test"
-print(licz_wystapienia_slow(tekst))
-# Output: {'to': 2, 'jest': 2, 'test': 2, 'tylko': 1}
+print(licz_wystapienia_litery(tekst, "t"))
+# Output: 9
 
 
 """

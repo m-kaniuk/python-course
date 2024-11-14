@@ -22,12 +22,11 @@ Napisz funkcję, która przyjmuje listę liczb i zwraca zarówno ich sumę, jak 
 
 """
 =================================================================================================
-Zadanie 4: Liczenie Wystąpień Słów
-Napisz funkcję, która przyjmuje ciąg znaków (tekst) i zwraca słownik 
-z liczbą wystąpień każdego słowa w tekście.
+## Zadanie 4: Liczenie Wystąpień Litery
+Napisz funkcję, która przyjmuje ciąg znaków (tekst) oraz literę i zwraca liczbę wystąpień podanej litery.
 
-1. Utwórz funkcję licz_wystapienia_slow(tekst), która przyjmuje jeden ciąg znaków tekst.
-2. Podziel tekst na słowa i policz wystąpienia każdego słowa.
+1. Utwórz funkcję licz_wystapienia_litery(tekst, litera), która przyjmuje jeden ciąg znaków i szukaną literę.
+2. Policz wystąpienia każdej litery.
 3. Przetestuj funkcję na kilku przykładach.
 """
 

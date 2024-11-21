@@ -3,7 +3,7 @@ import json
 import requests
 
 headers = {
-    "Authorization": "Bearer <TOKEN>",
+    "Authorization": "Bearer <token>",
     "Content-Type": "application/json",
 }
 response = requests.get("https://app.eu0.signalfx.com/v2/chart", headers=headers)

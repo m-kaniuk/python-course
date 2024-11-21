@@ -20,15 +20,3 @@ print(f"Bieżący czas: {formatted_time}")
 print("Wstrzymanie wykonania na 3 sekundy...")
 time.sleep(3)
 print("Kontynuacja wykonania po 3 sekundach")
-
-# Definiowanie funkcji
-def greet(name):
-    """
-    Ta funkcja wypisuje powitanie z podanym imieniem.
-    """
-    print(f"Cześć, {name}!")
-
-# Używanie funkcji
-greet("Jan")
-greet("Maria")
-greet("Adam")

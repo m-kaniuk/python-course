@@ -32,6 +32,7 @@ Napisz program, który:
 Odczyta plik.
 Policzy, ile słów znajduje się w pliku.
 Wyświetli wyniki w formacie: "Liczba słów w pliku: X".
+Hint: wykorzystaj funkcje .split()
 """
 
 with open("tekst.txt", "r") as file:
@@ -66,6 +67,7 @@ Stwórz plik liczby.txt, który zawiera liczby (każda liczba w osobnej linii).
 Napisz program, który:
 Odczyta plik.
 Wyfiltruje tylko liczby parzyste i zapisze je do nowego pliku parzyste.txt.
+Hint: wykorzystaj funkcje .strip()
 """
 
 with open("liczby.txt", "r") as file:

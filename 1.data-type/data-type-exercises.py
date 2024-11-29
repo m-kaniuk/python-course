@@ -1,6 +1,7 @@
 # Zadanie 1
 # Napisz program w Pythonie, który sprawdzi typ zmiennej.
 
+
 # Zadanie 2
 # Napisz program w Pythonie, który przekonwertuje ciąg znaków na liczbę całkowitą.
 

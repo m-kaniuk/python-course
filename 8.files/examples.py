@@ -11,7 +11,7 @@ with open("example.txt", "w") as file:
 Otwieranie pliku w trybie odczytu
 """
 
-with open("example.txt", "a") as file:
+with open("example.txt", "r") as file:
     content = file.read()
     print(content)
 
@@ -27,7 +27,6 @@ with open("example.txt", "a") as file:
 
 """
 =================================================================================================
-Podstawowy przykład użycia try-except:
 Otwieranie pliku w trybie odczytu
 """
 
